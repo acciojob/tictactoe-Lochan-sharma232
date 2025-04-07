@@ -11,7 +11,7 @@ tictok();
 let box=document.querySelectorAll(".box");
 let turn0=true;//playerX player0
 //2d array and array indexing because accessing the elements
-const winPatterns=[
+const winPatterns=[//winpatterns is a array
 	[0,1,2],
 	[0,3,6],
 	[0,4,8],
@@ -24,5 +24,20 @@ const winPatterns=[
 boxes.forEach(box)=>{
 	box.addEventListener("click",()=>{
 		console.log("box was clicked");
+		if(turn0){//player0 turns
+			box.innerText="0";
+			turn0=false;
+		}else{//playerx turns
+		box.innerText="X";
+		turn0=true;
+		}
+		box.disable=true;
+		checkWinner();
 	});
+});
+const checkWinner=()=>{//checkwinner ke pass calll jaayega
+	for(pattern of winPatterns){
+		console.log(pattern);
+	}//pattterns bhi all print honge
+	
 }
