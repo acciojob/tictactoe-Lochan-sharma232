@@ -4,15 +4,14 @@
 .game{
 	height:60vmin;
 	width:60vmin;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
+	display:grid;
 	align-items:center;
+	grid-template-columns:repeat(3,100px);
+	grid-template-rows:repeat(3,100px);
 }
 .box{
 	height:18vmin;
 	width:18vmin;
 	background-color:pink;
-	border:black;
-	border-radius:2px solid black;
+	border:2px solid black;
 }
