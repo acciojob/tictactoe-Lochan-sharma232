@@ -1,3 +1,12 @@
+document.getElementById('submit').addEventListener('click'),function(event){
+	event.preventDefault();
+	let Player 1=document.getElementById('Player 1').value;
+		let Player 2=document.getElementById('Player 2').value;
+}
+
+
+
+
 function tictok(){
 }
 
