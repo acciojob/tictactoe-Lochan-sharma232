@@ -4,8 +4,10 @@ document.getElementById('submit').addEventListener('click'),function(event){
 		let Player 2=document.getElementById('Player 2').value;
 }
 
-
-
+document.querySelector('.input-section').style.display='none';
+document.querySelector('.tic.toc.toe').style.display='block';
+document.querySelector('message').textContent=`${player1},you're up!`
+});
 
 function tictok(){
 }
