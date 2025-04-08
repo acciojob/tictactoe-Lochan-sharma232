@@ -1,34 +1,41 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-	<div class="container">
+<body class="container">
+		
 	<h1>TIC TAC TOE</h1>
-	<label for="Player 1">Player 1</label>
-	<input placeholder="enter name" type ="text" id="Player 1" required><br>
-	<label for="Player 2">Player 2</label>
+	<div id="player">
+    <label for="Player 1">Player 1:</label>
+	<input placeholder="enter name" type ="text" required><br>
+	<label for="Player 2">Player 2:</label>
 	<input placeholder="enter name" type ="text" id="Player 2" required><br>
-	<button type="button"id ="submit">Start Game</button>
-	
-	<div class="message">
-			<h1>TIC TAC TOE</h1>
-		<p><b>hars, you're up</b></p>
-	  <button class="box"></button>
-		<button class="box"></button>
-	    <button class="box"></button>
-		<button class="box"></button>
-		<button class="box"></button>
-		<button class="box"></button>
-		<button class="box"></button>
-		<button class="box"></button>
-		<button class="box"></button>
+	<button type="submit" id ="submit">Start Game</button>
+	</div>
+	<div id="game">
+        <h2 class="message">Game Started</h2>
+        <div class="game-grid">
+            <div id="1"></div>
+            <div id="2"></div>
+            <div id="3"></div>
+            <div id="4"></div>
+            <div id="5"></div>
+            <div id="6"></div>
+            <div id="7"></div>
+            <div id="8"></div>
+            <div id="9"></div>
+        </div>
+		<div class="btn-content">
+            <button type="submit">Clear</button>
+            <button type="submit">Restart</button>
+        </div>
 	</div>
 		<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	</div>
-</div>
 </body>
+
 </html>
