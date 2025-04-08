@@ -1,13 +1,13 @@
 .container{
-	
+text-align:center;	
 }
 .game{
 	height:60vmin;
 	width:60vmin;
 	display:grid;
 	align-items:center;
-	grid-template-columns:repeat(3,100px);
-	grid-template-rows:repeat(3,100px);
+	grid-template-columns:repeat(3,1fr);
+	grid-template-rows:repeat(3,1fr);
 }
 .box{
 	height:18vmin;
