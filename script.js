@@ -1,14 +1,6 @@
-document.getElementById('submit').addEventListener('click'),function(event){
-	event.preventDefault();
-	let Player 1=document.getElementById('Player 1').value;
-		let Player 2=document.getElementById('Player 2').value;
-}
-
-document.querySelector('.input-section').style.display='none';
-document.querySelector('.tic.toc.toe').style.display='block';
-document.querySelector('message').textContent=`${player1},you're up!`
-});
-
+// document.getElementById('submit').addEventListener('click'),function(event){
+// 	event.preventDefault();
+// 	let Player 1=document.getElementById('Player 1').valu
 function tictok(){
 }
 
