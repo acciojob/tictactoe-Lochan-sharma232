@@ -6,13 +6,16 @@ text-align:center;
 	width:60vmin;
 	display:grid;
 	align-items:center;
-	grid-template-columns:repeat(3,1fr);
-	grid-template-rows:repeat(3,1fr);
+	grid-template-columns:,1fr,1fr,1fr;
+	grid-template-rows:1fr,1fr,1fr;
 }
 .box{
 	height:18vmin;
 	width:18vmin;
 	background-color:pink;
 	border:2px solid black;
+	dispaly:flex;
+	justify-content:center;
+	align-items:center;
 }
 
